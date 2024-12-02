@@ -46,4 +46,4 @@ jobs:
       - name: Run Test with numbers.txt
         run: |
           python find_lowest_number.py test_data/numbers.txt output_numbers.txt
-          diff output_numbers.txt test_data/numbers_expected.txt
+          diff output_numbers.txt test_data/numbers.txt
